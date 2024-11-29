@@ -402,7 +402,7 @@ body {
   border-radius: 12px;
   padding: 30px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);git init
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .contact-section img {
   width: 50px;
@@ -439,5 +439,144 @@ body {
 .contact-button:hover {
   background-color: #693de0;
 }
+
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header button {
+  background-color: #9679f4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+.post {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.post img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.post .info {
+  padding: 10px;
+}
+
+.post .info h2 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+.post .info p {
+  margin: 0;
+}
+
+.post .info .author {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.post .info .author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5 px;
+  margin-right: 10px;
+}
+
+
+
+
+
+.container {
+  text-align: center;
+ 
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+button {
+  background-color: #9477F5;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+
+.lastbtn{
+  /* border: 2px solid red; */
+}
+.last1{
+  background-color: #9477F5;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+
+}
+.last1{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
+
 
 

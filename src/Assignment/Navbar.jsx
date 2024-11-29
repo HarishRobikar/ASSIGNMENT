@@ -317,6 +317,73 @@ const Navbar = () => {
 
 
 
+    <div class="container">
+    <div class="header">
+      <h1>Our blog</h1>
+      
+      <button>Add Post</button>
+      
+    </div>
+    <div class="posts">
+      <div class="post">
+        <img src={last1} alt="" />
+        <div class="info">
+          <h2>UX review presentations</h2>
+          <p>How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+          <div class="author">
+          <img src={last2} alt="" />
+            <span>Olivia phye </span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+      <img src={last2} alt="" />
+        <div class="info">
+          <h2>Migrating to Linear 101
+
+</h2>
+          <p>Linear helps streamline software projects, sprints, tasks, and bug tracking. Here's how to get started.</p>
+          <div class="author">
+          <img src={last1} alt="" />
+            <span>Phoenix Baker</span>
+          </div>
+        </div>
+      </div>
+      <div class="post">
+      <img src={last3} alt="" />
+        <div class="info">
+          <h2>Building your API stack
+
+</h2>
+          <p>The rise of RESTful APis has been met by a rise in tools for creating, testing, and managing them.</p>
+          <div class="author">
+          <img src={last1} alt="" />
+            <span>Lana Steiner</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <h1>Start your free trial</h1>
+    <p>Join over 4,000+ startups already growing with Untitled.</p>
+    <div className="lastbtn">
+    <button className="last1">Learn more</button>
+    <button className="last2">Get started</button>
+
+    </div>
+  </div>
+
+
+
+
+
+<div class="footer">
+  <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+</div>
 
 
 
